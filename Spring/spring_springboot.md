@@ -3,10 +3,10 @@
 # 공식 홈페이지([링크](https://spring.io/projects/spring-boot))
 
 > **Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".**
-Spring Boot를 사용하면 "그냥 실행"할 수 있는 독립 실행형 프로덕션 등급 Spring 기반 애플리케이션을 쉽게 만들 수 있습니다.
+<br>Spring Boot를 사용하면 "그냥 실행"할 수 있는 독립 실행형 프로덕션 등급 Spring 기반 애플리케이션을 쉽게 만들 수 있습니다.
 > 
 
-### 📌[Primary goals](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started):
+### 📌[Primary goals](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started) :
 
 - Provide a radically faster and widely accessible getting-started experience for all Spring development.
 - Be opinionated out of the box but get out of the way quickly as requirements start to diverge from the defaults.
@@ -18,15 +18,15 @@ Spring Boot를 사용하면 "그냥 실행"할 수 있는 독립 실행형 프�
     - 임베디드 서버, 보안, 메트릭, 상태 확인 및 외부화된 구성과 같은 대규모 프로젝트 클래스에 공통적인 다양한 비기능 기능을 제공합니다.
     - 코드 생성 및 XML 구성에 대한 요구 사항이 전혀 없습니다.
 
-## ✨**[Features](https://spring.io/projects/spring-boot)**
+## ✨ [Features](https://spring.io/projects/spring-boot)
 
-### 1️⃣독립형 Spring 애플리케이션 생성
+### 1️⃣ 독립형 Spring 애플리케이션 생성
 
 Create stand-alone Spring applications
 
 스프링 부트는 단지 실행만 하면 되는 **스프링 기반의 어플리케이션을 쉽게 만들 수 있다.**
 
-### 2️⃣Auto-configuration
+### 2️⃣ Auto-configuration
 
 Automatically configure Spring and 3rd party libraries whenever possible
 
@@ -34,7 +34,7 @@ Automatically configure Spring and 3rd party libraries whenever possible
 
 개발자는 `application.properties` 또는 `application.yml`만 설정하고, 스프링 부트에서 해당 설정으로 통해 생성한 빈을 사용하기만 하면 된다.
 
-### 3️⃣starter dependencies
+### 3️⃣ starter dependencies
 
 Provide opinionated 'starter' dependencies to simplify your build configuration
 
@@ -44,7 +44,7 @@ Provide opinionated 'starter' dependencies to simplify your build configuration
 2. starter를 추가함으로써 애플리케이션에 **어떤 기능이 필요한지 특정할 수 있게 된다.** (web, JPA, security..)
 3. 각 라이브러리끼리 호환되는 권장 버전으로 미리 세팅되어 있기 때문에 해당 라이브러리의 어떤 버전이 필요한지 고민할 필요가 없어진다. 
 
-### 4️⃣내장 서버로 인한 간단한 배포 서버 구축
+### 4️⃣ 내장 서버로 인한 간단한 배포 서버 구축
 
 Embed Tomcat, Jetty or Undertow directly (no need to deploy WAR files)
 
@@ -56,22 +56,22 @@ java -jar $REPOSITORY/$JAR_NAME &
 
 서버 구동 시간도 단축되었다.
 
-### 5️⃣Actuator
+### 5️⃣ Actuator
 
 Provide production-ready features such as metrics, health checks, and externalized configuration
 
 actuator는 애플리케이션의 메트릭, 상태를 쉽게 확인할 수 있는 모니터링 기능이다.
 
-### 6️⃣코드 생성이 전혀 없고 XML 구성이 필요하지 않습니다.
+### 6️⃣ 코드 생성이 전혀 없고 XML 구성이 필요하지 않습니다.
 
 Absolutely no code generation and no requirement for XML configuration
 
 > 개발자들이 개발에만 더욱 집중하고, 스프링 기반 어플리케이션을 쉽게 만들 수 있다.
-> 
+
 
 ---
 
-# Spring Boot in Action
+# Spring Boot의 
 
 - *Auto-configuration*
     
@@ -123,7 +123,7 @@ public DataSource dataSource() {
 
 **→ bolierplate configuration**
 
-### ✅Spring Boot의 역할
+### ✅ Spring Boot의 역할
 
 Spring Boot는 이러한 구성을 자동으로 해준다. 
 
@@ -133,19 +133,19 @@ Spring Boot가 애플리케이션의 class-path에 H2 데이터베이스 라이�
 
 개발자는 `application.yml`을 작성하고, Spring boot가 자동으로 구성해준 빈을 사용하기만 하면 된다.
 
-## 2️⃣**STARTER DEPENDENCIES**
+## 2️⃣ **STARTER DEPENDENCIES**
 
 프로젝트에서 빌드에 dependency를 추가하기 위해서는 어떤 라이브러리가 필요한지, group과 artifact는 무엇인지, 필요한 버전이 무엇인지, 다른 dependency들과의 호환이 되는 버전인지를 고민해야 한다.
 
 예를 들어, JSON resource representation을 이용하는 Spring MVC로 REST API를 구축한다고 가정한다. 또한 JSR-303 사양에 따라 선언적 유효성 검사 (declarative validation)를 적용하고 임베디드 Tomcat 서버를 사용하여 애플리케이션을 제공하려고 합니다. 이를 위해서는 Maven 또는 Gradle 빌드에 적어도 8개의 dependencies가 필요하다.
 
-■ org.springframework:spring-core
-■ org.springframework:spring-web
-■ org.springframework:spring-webmvc
-■ com.fasterxml.jackson.core:jackson-databind
-■ org.hibernate:hibernate-validator
-■ org.apache.tomcat.embed:tomcat-embed-core
-■ org.apache.tomcat.embed:tomcat-embed-el
+■ org.springframework:spring-core<br>
+■ org.springframework:spring-web<br>
+■ org.springframework:spring-webmvc<br>
+■ com.fasterxml.jackson.core:jackson-databind<br>
+■ org.hibernate:hibernate-validator<br>
+■ org.apache.tomcat.embed:tomcat-embed-core<br>
+■ org.apache.tomcat.embed:tomcat-embed-el<br>
 ■ org.apache.tomcat.embed:tomcat-embed-logging-juli
 
 ```java
@@ -160,7 +160,7 @@ Spring Boot가 애플리케이션의 class-path에 H2 데이터베이스 라이�
 implementation group: 'org.springframework', name: 'spring-core', version: '6.0.8'
 ```
 
-### ✅Spring Boot의 역할
+### ✅ Spring Boot의 역할
 
 Spring Boot에서는 특정 기능을 위한 라이브러리 종류를 생각할 필요없이, starter dependencies를 통해 기능을 받아오기만 하면 된다. 위의 경우, `org.springframework.boot:spring-boot-starter-web`만 dependency에 추가하면 된다. 
 
@@ -174,7 +174,7 @@ Spring Boot는 프로젝트의 dependency 관리를 위해 `starter dependencies
 > 
 
 <aside>
-📌 ****Transitive dependency****
+📌 Transitive dependency
 
 - direct dependencies are *directly required by the component*. A direct dependency is also referred to as a *first level dependency*. For example, if your project source code requires Guava, Guava should be declared as *direct dependency*.
 - transitive dependencies are dependencies that your component needs, but only because another dependency needs them.
@@ -186,7 +186,7 @@ Spring Boot는 프로젝트의 dependency 관리를 위해 `starter dependencies
 2. starter를 추가함으로써 애플리케이션에 **어떤 기능이 필요한지 특정할 수 있게 된다.** (web, JPA, security..)
 3. 해당 라이브러리의 어떤 버전이 필요한지 고민할 필요가 없어진다. 각 라이브러리끼리 호환되는 권장 버전으로 미리 세팅되어 있기 때문이다.
 
-## 3️⃣**THE ACTUATOR**
+## 3️⃣ **THE ACTUATOR**
 
 다른 기능들이 Spring 개발을 단순화하는 반면 Actuator는 런타임에 애플리케이션 내부를 검사하는 기능을 제공한다. Actuator를 설치하면, 애플리케이션 아래와 같은 내부 작동을 검사할 수 있다.
 
@@ -199,18 +199,17 @@ Spring Boot는 프로젝트의 dependency 관리를 위해 `starter dependencies
 
 Actuator의 정보는 웹의 endpoint 또는 shell interface를 통해 접근할 수 있다. 후자의 경우 애플리케이션에 SSH (secure shell)을 열고, 실행 중인 애플리케이션을 검사하는 명령을 실행할 수 있다.
 
-## 4️⃣**THE COMMAND-LINE INTERFACE (CLI)**
+## 4️⃣ **THE COMMAND-LINE INTERFACE (CLI)**
 
 CLI를 통해 애플리케이션을 빠르게 작성할 수 있다. starter dependencies와 자동 구성을 활용하여 코드 작성에 집중할 수 있도록 한다. 
 
 ```java
 @RestController
 class HelloController {
-
-		  @RequestMapping("/")
-		  def hello() {
-				    return "Hello World"
-		  }
+	@RequestMapping("/")
+	def hello() {
+		return "Hello World"
+	}
 }
 ```
 
@@ -262,12 +261,12 @@ Spring Boot의 핵심은 Spring이다. Spring Boot는 사용자가 직접 수행
     
     - `@SpringBootApplication`
         
-        하나 이상의 @Bean 메서드를 선언하고 `[auto-configuration](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/EnableAutoConfiguration.html)` 및 `[component scanning](https://docs.spring.io/spring-framework/docs/6.0.8/javadoc-api/org/springframework/context/annotation/ComponentScan.html)`을 트리거하는 구성 클래스를 나타냅니다.
+        하나 이상의 @Bean 메서드를 선언하고 [auto-configuration](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/EnableAutoConfiguration.html) 및 [component scanning](https://docs.spring.io/spring-framework/docs/6.0.8/javadoc-api/org/springframework/context/annotation/ComponentScan.html)을 트리거하는 구성 클래스를 나타냅니다.
         
         `@Configuration`, `@EnableAutoConfiguration` and `@ComponentScan`을 선언하는 것과 같다.
         
         - `@ComponentScan` : **@component** 어노테이션 **@Service**, **@Repository**, **@Controller** 등의 어노테이션을 스캔하여 Bean으로 등록해주는 어노테이션입니다
-        - `@****EnableAutoConfiguration` :**
+        - `@EnableAutoConfiguration` :
             
             @EnableAutoConfiguration은 사전에 정의한 라이브러리들을  Bean으로 등록해 주는 어노테이션입니다.
             
@@ -285,4 +284,5 @@ Spring Boot의 핵심은 Spring이다. Spring Boot는 사용자가 직접 수행
         public @interface SpringBootApplication {}
         ```
         
-    - `@EnableAutoConfiguration`
+    - `@EnableAutoConfiguration`<br>
+	필요할 것 같은 빈을 추측하고 구성하려고 시도하면서 Spring 애플리케이션 컨텍스트의 자동 구성을 활성화합니다. 자동 구성 클래스는 일반적으로 클래스 경로와 정의한 빈에 따라 적용됩니다. 예를 들어 클래스 경로에 tomcat-embedded.jar가 있는 경우 TomcatServletWebServerFactory를 원할 가능성이 높습니다(자신의 ServletWebServerFactory 빈을 정의하지 않은 경우).<br>@SpringBootApplication을 사용할 때 컨텍스트의 자동 구성이 자동으로 활성화되므로 이 주석을 추가해도 추가 효과가 없습니다.<br>적용하지 않으려는 구성은 항상 수동으로 exclude()할 수 있습니다(액세스할 수 없는 경우 excludeName() 사용). spring.autoconfigure.exclude 속성을 통해 제외할 수도 있습니다. 자동 구성은 사용자 정의 빈이 등록된 후에 항상 적용됩니다.<br>일반적으로 @SpringBootApplication을 통해 @EnableAutoConfiguration으로 어노테이션이 지정된 클래스의 패키지는 특정 의미를 가지며 종종 '기본값'으로 사용됩니다. 예를 들어 @Entity 클래스를 스캔할 때 사용됩니다. 일반적으로 모든 하위 패키지와 클래스를 검색할 수 있도록 @EnableAutoConfiguration(@SpringBootApplication을 사용하지 않는 경우)을 루트 패키지에 배치하는 것이 좋습니다.
