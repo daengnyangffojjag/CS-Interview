@@ -2,8 +2,10 @@
 
 ## Category
 
-### [Network](https://github.com/daengnyangffojjag/CS-Interview/tree/main/Network)
-### [Java](https://github.com/daengnyangffojjag/CS-Interview/tree/main/Java)
-### [Spring](https://github.com/daengnyangffojjag/CS-Interview/tree/main/Spring)
+### Network
+
+### Java
+
+### Spring
 1. [SpringBoot](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_springboot.md)
 
