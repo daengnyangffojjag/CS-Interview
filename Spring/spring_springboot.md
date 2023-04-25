@@ -6,7 +6,7 @@
 <br>Spring Boot를 사용하면 "그냥 실행"할 수 있는 독립 실행형 프로덕션 등급 Spring 기반 애플리케이션을 쉽게 만들 수 있습니다.
 > 
 
-### 📌[Primary goals](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started) :
+### 📌 [Primary goals](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started) :
 
 - Provide a radically faster and widely accessible getting-started experience for all Spring development.
 - Be opinionated out of the box but get out of the way quickly as requirements start to diverge from the defaults.
@@ -99,7 +99,7 @@ Absolutely no code generation and no requirement for XML configuration
 ```java
 @Bean
 public JdbcTemplate jdbcTemplate(DataSource dataSource) {
-		return new JdbcTemplate(dataSource);
+	return new JdbcTemplate(dataSource);
 }
 ```
 
@@ -110,10 +110,10 @@ public JdbcTemplate jdbcTemplate(DataSource dataSource) {
 ```java
 @Bean
 public DataSource dataSource() {
-		return new EmbeddedDatabaseBuilder()
-		          .setType(EmbeddedDatabaseType.H2)
-		          .addScripts('schema.sql', 'data.sql')
-		          .build();
+	return new EmbeddedDatabaseBuilder()
+		  .setType(EmbeddedDatabaseType.H2)
+		  .addScripts('schema.sql', 'data.sql')
+		  .build();
 }
 ```
 
