@@ -119,15 +119,15 @@ UserDto userDto = new UserDto( 1L, "근이");
 
 ```java
 String str = "승근\n"
-					 + "백승근\n" 
-					 + "근이\n";
+           + "백승근\n"
+           + "근이\n";
 
 //텍스트 블록
 String str = """
-						 승근
-						 백승근
-						 근이
-						 """;
+			 승근
+			 백승근
+			 근이
+			 """;
 // SQL 쿼리나 JSON등에서 유용하게 사용가능
 ```
 
