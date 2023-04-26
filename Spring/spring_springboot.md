@@ -71,7 +71,7 @@ Absolutely no code generation and no requirement for XML configuration
 
 ---
 
-# Spring Boot의 
+# Spring Boot의 주요 기능
 
 - *Auto-configuration*
     
