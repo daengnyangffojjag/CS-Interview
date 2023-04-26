@@ -1,4 +1,5 @@
 ### Spring Security란?
+<hr/>
 
 인증, 인가, 보안기능을 담당하는 스프링 하위 프레임워크이다.
 Spring Security는 '인증'과 '권한'에 대한 부분을 Filter 흐름에 따라 처리하고 있다.
@@ -9,25 +10,25 @@ ex. 로그인, 권한설정, 권한검사
   ![](https://velog.velcdn.com/images/tkdtkd97/post/8a39c77f-b779-4907-b359-92fa7a927f4d/image.png)
   ![](https://velog.velcdn.com/images/tkdtkd97/post/d1e9eed4-5684-4799-8d49-0ffce3ceebe5/image.png)
   서블릿 컨테이너는 그 사이 필터로 개입을 할 수 있다. 여기에 security filter도 넣어 보안기능을 수행한다.
-
-하지만 서블릿 컨테이너로 필터를 만들면 이 필터자체가 스프링 빈을 이해하지 못한다. 그래서 스프링에 위임한다.
+  <br/><br/>
+   하지만 서블릿 컨테이너로 필터를 만들면 이 필터자체가 스프링 빈을 이해하지 못한다. 그래서 스프링에 위임한다.
 ![](https://velog.velcdn.com/images/tkdtkd97/post/81ddc2db-25fc-4968-8e8c-27215565b7ae/image.png)
-
-그걸 따라서 스프링은 security filter chain을 만든다.
+  <br/><br/>
+   그걸 따라서 스프링은 security filter chain을 만든
 ![](https://velog.velcdn.com/images/tkdtkd97/post/8db6d8d7-16f7-4c92-bf92-9de53f5f46fe/image.png)
 
-![](https://velog.velcdn.com/images/tkdtkd97/post/aab0dd80-b19d-42df-ba9b-0b6e7070886d/image.png)
+   ![](https://velog.velcdn.com/images/tkdtkd97/post/aab0dd80-b19d-42df-ba9b-0b6e7070886d/image.png)
 그래서 여기에는 여러 필터들이 있다.
 이 필터들의 묶음을 필터체인이라 부르고 각 필터들은 고유한 기능이 있다.
 기본적으로 설정하지 않아도 default로 등록되는 필터가 존재한다.
 [공식문서 - 보안필터](https://docs.spring.io/spring-security/reference/servlet/architecture.html#servlet-securityfilterchain)
 
 - security를 구현하는 방법은 다양하다.
-
+  <br/><br/>
 필터자체를 이해해서 필터를 구현할 것인지, 함수나 메서드를 오버라이딩해서 일부흐름만 커스터마이징할 것인지 구현방법은 사용자가 결정하기 나름이다.
 
 ### WebSecurityConfigurerAdapter vs SecurityFilterChain
-
+<hr/>
 
 - WebSecurityConfigureAdapter를 사용한 방식
 ```java
@@ -120,6 +121,7 @@ public class SecurityConfiguration {
 [해당 버전확인](https://codejava.net/frameworks/spring-boot/fix-websecurityconfigureradapter-deprecated)
 
 ### HttpSecurity
+<hr/>
 
 HttpSecurity는 인증, 인가의 세부적인 기능을 설정할 수 있도록 API를 제공해주는 클래스이다.
 [공식문서 HttpSecurity 사용법](https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/config/annotation/web/builders/HttpSecurity.html)
@@ -157,22 +159,27 @@ HttpSecurity는 인증, 인가의 세부적인 기능을 설정할 수 있도록
 - 댕냥에 admin 도전과제로 해도 좋을듯
 
 ### Spring Security 모듈
+<hr/>
 
 [2번 참고](https://mangkyu.tistory.com/76)
 
 ### Spring Security 처리 과정
+<hr/>
 
 ![](https://velog.velcdn.com/images/tkdtkd97/post/e4bc7bf5-f263-4b0d-8e29-302515d4162e/image.png)
 [Session 사용](https://mangkyu.tistory.com/77)
+
 [JWT 사용](https://mangkyu.tistory.com/57)
 
 
 ### 참고
+<hr/>
 
 https://www.youtube.com/watch?v=ewslpCROKXY
 [인프런 정수원 -springSecurity 유료강의 요약본(이건 그냥 첨부)](https://velog.io/@eldehd9898/Spring-Security-%EC%A0%95%EC%88%98%EC%9B%90-8%ED%9A%8C%EC%B0%A8)
 
-### 예상질문
+### 면접 예상질문
+<hr/>
 
 #### 1. Spring Security란 무엇인가요?
 
