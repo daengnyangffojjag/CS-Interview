@@ -6,7 +6,7 @@
 -   자바 바이트 코드를 실행하기 위한 기계
 -   **가비지 컬렉터**(Garbage Colletor : GC)를 사용한 **메모리 관리를 자동으로 수행**
 -   레지스터 기반이 아닌 **스택 기반으로 동작**
--   **한번 작성하면, 어디서든 실행! (Write once, run anywhere) - Sun Microsystems**
+-   **한번 작성하면, 어디서든 실행 (Write once, run anywhere) - Sun Microsystems**
 
 ![](img/JVM1.png)
 
