@@ -17,7 +17,7 @@
 - 트리는 그래프 중에서도 특수한 케이스에 해당하는 자료 구조이다.
 
 
-<img src="https://user-images.githubusercontent.com/102219847/236392149-4a9bb29f-c831-465a-8253-e2d033296949.png">
+<img src="https://user-images.githubusercontent.com/102219847/236392149-4a9bb29f-c831-465a-8253-e2d033296949.png" width="80%">
 
 - 방향 그래프
 - 계층적 구조 (부모-자식 관계)
@@ -36,13 +36,13 @@
 - 모든 노드들이 자식을 하나만 가진 트리
 - 왼쪽 방향으로 자식을 하나만 가지면 left skew tree, 오른쪽으로 가지면 right skew tree라고 한다.
   
-<img src="https://user-images.githubusercontent.com/102219847/236392615-bb54eecd-363e-4b28-9a49-4f209182fe58.png" width="70%">
+<img src="https://user-images.githubusercontent.com/102219847/236392615-bb54eecd-363e-4b28-9a49-4f209182fe58.png" width="50%">
 
 ### ○ 이진 트리 (Binary Tree)
 
 - 각 노드의 차수 (자식 노드)가 2 이하인 트리
 
-<img src="https://user-images.githubusercontent.com/102219847/236392654-aba70340-1143-4b69-94c8-641809108189.png" width="70%">
+<img src="https://user-images.githubusercontent.com/102219847/236392654-aba70340-1143-4b69-94c8-641809108189.png" width="50%">
 
 ### ○ 이진 탐색 트리 (Binary Search Tree, BST)
 
