@@ -1,2 +1,2 @@
 - [트리 Tree](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/tree.md)
-- [해쉬 Hash]()https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/hash.md
+- [해쉬 Hash](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/hash.md)
