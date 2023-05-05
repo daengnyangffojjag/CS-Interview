@@ -1,12 +1,10 @@
 # 해시 (Hash)
 
-<aside>
-💡 **Hash Function 
-: 임의의 데이터를 고정된 길이의 데이터로 매핑하는 단방향 함수.
-Hashing 
+> 📎 **Hash Function 
+: 임의의 데이터를 고정된 길이의 데이터로 매핑하는 단방향 함수.<br>
+📎 Hashing 
 : 해시함수를 이용해서 데이터를 해시 테이블에 저장하고 검색하는 기법.**
 
-</aside>
 
 ### Hash function
 
@@ -20,7 +18,8 @@ Hashing
 - 한정된 자원으로 많은 데이터를 효율적으로 관리하기 위해 사용.
 - HashSet, HashMap, Hashtable 등이 해싱을 구현하였다.
 
-![https://miro.medium.com/v2/resize:fit:1400/1*IYmk2KnjtYu5gLihyDSTdg.gif](https://miro.medium.com/v2/resize:fit:1400/1*IYmk2KnjtYu5gLihyDSTdg.gif)
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*IYmk2KnjtYu5gLihyDSTdg.gif" width="50%">
 
 **[저장하는 과정]**
 
@@ -42,7 +41,8 @@ Hashing
 - 같은 해시값이 나오는 충돌이 발생하면 index가 동일할 수 있다.
 - 데이터 개수가 적을 대는 **오픈 어드레싱(Open Addressing)**, 반대의 경우 **개별 체이닝(Seperate Chaining)**이 효율이 좋다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97313a66-5242-42f8-892c-0e39cd54b6b8/Untitled.png)
+<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97313a66-5242-42f8-892c-0e39cd54b6b8/Untitled.png" width="30%">
+
 
 ### 1️⃣ Open Addressing
 
@@ -52,7 +52,7 @@ Hashing
 - **Linear Probing (선형 탐사)** : 정해진 고정 폭으로 옮겨 해시값의 중복을 피함
 - **Quadratic Probing (제곱 탐사)** : 정해진 고정 폭을 제곱수로 옮겨 해시값의 중복을 피함
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1049afb-0b93-4b30-92f9-5f5654f3ab4e/Untitled.png)
+<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1049afb-0b93-4b30-92f9-5f5654f3ab4e/Untitled.png" width="50%">
 
 - Double Hashing (이중 해싱) : 다음 프로빙으로 또 다른 해시 함수 사용.
 
@@ -62,7 +62,7 @@ Hashing
 - 각각의 index를 **연결리스트**로 만들어서 같은 해시값을 가져도 원하는 데이터에 접근 가능
 - JAVA의 HashMap이 사용하는 방법
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1a879bd-afa0-40ee-9902-cfa6e1a3755d/Untitled.png)
+<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1a879bd-afa0-40ee-9902-cfa6e1a3755d/Untitled.png" width="50%">
 
 
 ## ○ 해시테이블 시간 복잡도
