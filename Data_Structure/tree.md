@@ -186,6 +186,12 @@
 ### 참고
 [https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/](https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/)
 [https://yoongrammer.tistory.com/68](https://yoongrammer.tistory.com/68)
+[https://laboputer.github.io/ps/2017/09/29/graph/](https://laboputer.github.io/ps/2017/09/29/graph/)
+[https://hayden-archive.tistory.com/392](https://hayden-archive.tistory.com/392)
+  
 
-https://laboputer.github.io/ps/2017/09/29/graph/
-https://hayden-archive.tistory.com/392
+### 예상 질문
+- 트리 자료 구조에 대해 설명해주세요.
+- 트리의 종류에 대해 설명해주세요.
+- 트리를 사용하는 예와 쓰는 이유에 대해 설명해주세요.
+- 이진 탐색 트리에 대해 설명해주세요.
