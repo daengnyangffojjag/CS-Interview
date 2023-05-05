@@ -21,6 +21,7 @@
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*IYmk2KnjtYu5gLihyDSTdg.gif" width="50%">
 
+
 **[저장하는 과정]**
 
 - 충분한 공간을 할당받은 다음 해시 함수를 이용하여 고유 index를 생성하고, 이 index에 값을 저장한다.
@@ -41,10 +42,9 @@
 - 같은 해시값이 나오는 충돌이 발생하면 index가 동일할 수 있다.
 - 데이터 개수가 적을 대는 **오픈 어드레싱(Open Addressing)**, 반대의 경우 **개별 체이닝(Seperate Chaining)**이 효율이 좋다.
 
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/97313a66-5242-42f8-892c-0e39cd54b6b8/Untitled.png" width="30%">
+<img src="https://user-images.githubusercontent.com/102219847/236395930-6ef22328-491d-43a3-a36d-bb4567894b10.png" width="30%">
 
-
-### 1️⃣ Open Addressing
+### 1️⃣ Open Addressing
 
 - 다음에 위치한 index 중 비어있는 곳에 넣음
 - 전체 슬롯의 개수 이상은 저장할 수 없다.
@@ -52,7 +52,9 @@
 - **Linear Probing (선형 탐사)** : 정해진 고정 폭으로 옮겨 해시값의 중복을 피함
 - **Quadratic Probing (제곱 탐사)** : 정해진 고정 폭을 제곱수로 옮겨 해시값의 중복을 피함
 
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c1049afb-0b93-4b30-92f9-5f5654f3ab4e/Untitled.png" width="50%">
+<img src="https://user-images.githubusercontent.com/102219847/236395794-024decfd-6353-4390-a2de-670b2a0f8ed9.png" width="50%">
+
+
 
 - Double Hashing (이중 해싱) : 다음 프로빙으로 또 다른 해시 함수 사용.
 
@@ -62,7 +64,7 @@
 - 각각의 index를 **연결리스트**로 만들어서 같은 해시값을 가져도 원하는 데이터에 접근 가능
 - JAVA의 HashMap이 사용하는 방법
 
-<img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1a879bd-afa0-40ee-9902-cfa6e1a3755d/Untitled.png" width="50%">
+<img src="https://user-images.githubusercontent.com/102219847/236395863-12e67649-bdf9-4550-83cc-5ce46732c69e.pn" width="50%">
 
 
 ## ○ 해시테이블 시간 복잡도
