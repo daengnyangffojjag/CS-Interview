@@ -2,28 +2,22 @@
 
 ### 📎 그래프 (Graph)
 
-💡 **그래프 : 노드(node)와 노드 사이에 연결된 간선(edge)의 정보를 가지고 있는 자료구조**
+> 💡 **그래프 : 노드(node)와 노드 사이에 연결된 간선(edge)의 정보를 가지고 있는 자료구조**
 
-
-![[https://laboputer.github.io/ps/2017/09/29/graph/](https://laboputer.github.io/ps/2017/09/29/graph/)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4a975d09-5a1e-4e2e-b47b-2fc6b0f75eb1/Untitled.png)
-
-[https://laboputer.github.io/ps/2017/09/29/graph/](https://laboputer.github.io/ps/2017/09/29/graph/)
+<figure>
+<image src="https://user-images.githubusercontent.com/102219847/236390921-65e71330-1c1b-4e01-a741-cca82b821043.png" width="500">
+  </figure>
 
 - ‘서로 다른 개체가 연결되어 있다 → 그래프 알고리즘 고려
 - ex) 여러개의 도시가 연결되어 있다.
 
 ### 📎 트리 (Tree)
-
+  
+> 💡 **트리 : 두 개의 노드 사이에 반드시 1개의 경로만을 가지며 사이클이 존재하지 않는 방향 그래프이다.**
 - 트리는 그래프 중에서도 특수한 케이스에 해당하는 자료 구조이다.
 
-<aside>
-💡 **트리 : 두 개의 노드 사이에 반드시 1개의 경로만을 가지며 사이클이 존재하지 않는 방향 그래프이다.**
 
-</aside>
-
-![참고:[https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html](https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/83d51f01-229d-4440-ab83-ecd3db3b5a32/Untitled.png)
-
-참고:[https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html](https://gmlwjd9405.github.io/2018/08/13/data-structure-graph.html)
+<img src="https://user-images.githubusercontent.com/102219847/236392149-4a9bb29f-c831-465a-8253-e2d033296949.png">
 
 - 방향 그래프
 - 계층적 구조 (부모-자식 관계)
@@ -34,22 +28,21 @@
 
 - 임의의 두 노드 간의 경로는 유일
 
-## 📌 트리 종류
+---
 
+## 📌 트리 종류
 ### ○ 편향 트리 (skew tree)
 
 - 모든 노드들이 자식을 하나만 가진 트리
 - 왼쪽 방향으로 자식을 하나만 가지면 left skew tree, 오른쪽으로 가지면 right skew tree라고 한다.
-
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3da52a42-cbc4-4cf5-b4cf-c201cce73df0/Untitled.png)
-
+  
+<img src="https://user-images.githubusercontent.com/102219847/236392615-bb54eecd-363e-4b28-9a49-4f209182fe58.png" width="70%">
 
 ### ○ 이진 트리 (Binary Tree)
 
 - 각 노드의 차수 (자식 노드)가 2 이하인 트리
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dbd91568-314e-4b2f-af77-4a1ea27661ef/Untitled.png)
-
+<img src="https://user-images.githubusercontent.com/102219847/236392654-aba70340-1143-4b69-94c8-641809108189.png" width="70%">
 
 ### ○ 이진 탐색 트리 (Binary Search Tree, BST)
 
@@ -58,18 +51,18 @@
 - 노드의 왼쪽 자식은 부모의 값보다 작은 값을 가지며, 오른쪽 자식은 부모보다 큰 값을 가진다. (**왼쪽 자식 노드 < 부모 노드 < 오른쪽 자식 노드**)
 - 중위 순회로 정렬된 순서를 읽을 수 있다.
 
-![https://blog.penjee.com/wp-content/uploads/2015/11/binary-search-tree-sorted-array-animation.gif](https://blog.penjee.com/wp-content/uploads/2015/11/binary-search-tree-sorted-array-animation.gif)
+![](https://blog.penjee.com/wp-content/uploads/2015/11/binary-search-tree-sorted-array-animation.gif)
 
 ### ○ m원 탐색 트리 (M-way Search Tree)
 
 - 최대 m개의 서브 트리를 갖는 탐색 트리
 - 이진 탐색 트리의 확장된 형태로 높이를 줄이기 위해 사용
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6d3dba1-e6be-4ceb-ab1d-825015fc68a0/Untitled.png)
+![image](https://user-images.githubusercontent.com/102219847/236392825-da7be451-8d4e-46eb-bb29-c4b509d6cfbd.png)
 
 - 다원 탐색 트리는 스스로 균형을 유지하기 못하기 때문에 불균형이 발생할 수 있으며, 이 경우 검색 성능이 떨어지게 된다.
+<img src="https://user-images.githubusercontent.com/102219847/236392852-fc37bc20-016b-4dd2-b85d-4b4ec199e887.png" width="70%">
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04f8c13d-c105-44b4-b531-72df378884a6/Untitled.png)
 
 - 이를 보완하기 위해 스스로 균형을 유지하는 `Balanced Tree`가 있다.
 
@@ -81,10 +74,9 @@
 - 트리의 루트는 최소 2개의 서브트리를 갖는다.
 - 트리의 모든 잎 노드는 같은 레벨에 있다.
 - B+ tree, B* tree도 있다. ([참고](https://ssocoit.tistory.com/217))
+  
+<img src="https://user-images.githubusercontent.com/102219847/236392882-34ae78b0-6e92-4985-b3c7-65b76bde46df.png" width="70%">
 
-![[https://hayden-archive.tistory.com/392](https://hayden-archive.tistory.com/392)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44b89e88-c005-449b-887c-601a7994327e/Untitled.png)
-
-[https://hayden-archive.tistory.com/392](https://hayden-archive.tistory.com/392)
 
 ## 📌 트리의 적용
 
@@ -96,6 +88,8 @@
   → N개의 노드를 (N-1)개의 간선으로 연결
 
 - 예) 통신 네트워크, 라우터에서 사용되는 최단 경로
+<img width="497" alt="image" src="https://user-images.githubusercontent.com/102219847/236394716-0753b7b2-d564-42fb-a0e5-71cb82fb1a70.png">
+
 
 **2️⃣ 이진 탐색 트리**
 
@@ -111,14 +105,13 @@
 - 구문 트리는 컴파일러에서 사용되는 프로그램 소스 코드의 구조를 나타낸다.
 - 컴파일러는 계층 구조로 된 정보를 추출하여 Syntax Tree로 만든다.
 
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6760035e-1eea-48b1-a533-6eb2987e82d5/Untitled.png)
+<img width="431" alt="image" src="https://user-images.githubusercontent.com/102219847/236393515-a712d610-b908-4806-b331-438548c55b97.png">
 
 
 **5️⃣ Trie**
 
 - 문자열을 빠르게 탐색할 수 있는 자료구조이다.
-
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36853d9e-4c86-4258-916c-91ffeb71d8d9/Untitled.png)
+<img src="https://user-images.githubusercontent.com/102219847/236393041-600e527b-1ff3-4ab6-8d3f-689adf4c8026.png" width="50%">
 
 
 **6️⃣ Heap**
@@ -161,8 +154,7 @@
 2. 왼쪽 서브 트리를 전위 순회한다.
 3. 오른쪽 서브 트리를 전위 순회 한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/121c0c25-4c5c-4b80-92b0-9cf444ec7ae2/Untitled.png)
-
+<img width="386" alt="image" src="https://user-images.githubusercontent.com/102219847/236394105-fcb70dc3-fabb-4b18-a826-b1888c5556d7.png">
 `A → B → D → E → C → F → G`
 
 ### ○ 중위 순회 (In-order)
@@ -175,8 +167,7 @@
 2. root 노드를 방문한다.
 3. 오른쪽 서브 트리를 중위 순회한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/243678d6-27b8-454b-aec7-f3f0dc21407d/Untitled.png)
-
+<img width="392" alt="image" src="https://user-images.githubusercontent.com/102219847/236394147-fe3d487c-509d-4f82-8903-0b05208cd8dd.png">
 `D → B → E → A → F → C → G`
 
 ### ○ 후위 순회 (Post-order)
@@ -189,10 +180,12 @@
 2. 오른쪽 서브트리를 후위 순회한다.
 3. root노드를 방문한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec303309-42e8-49b0-a2ba-71f08afbd1ea/Untitled.png)
-
+<img width="387" alt="image" src="https://user-images.githubusercontent.com/102219847/236394176-fcdd2afd-e10f-4ad2-99f7-88258657f5bb.png">
 `D → E → B → F → G → C → A`
 
 ### 참고
 [https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/](https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/)
 [https://yoongrammer.tistory.com/68](https://yoongrammer.tistory.com/68)
+
+https://laboputer.github.io/ps/2017/09/29/graph/
+https://hayden-archive.tistory.com/392
