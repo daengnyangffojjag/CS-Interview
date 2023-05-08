@@ -17,3 +17,5 @@
 - [트리](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/tree.md)
 - [해쉬](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/hash.md)
 - [Stack & Queue & Heap](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/stack_queue_heap.md)
+- [Trie, B-Tree, B+Tree](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/Trie%2C%20B-Tree%2C%20B%2BTree.md)
+- [Array, List.md](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/Array%2C%20List.md)
