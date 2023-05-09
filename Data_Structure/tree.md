@@ -77,6 +77,44 @@
   
 <img src="https://user-images.githubusercontent.com/102219847/236392882-34ae78b0-6e92-4985-b3c7-65b76bde46df.png" width="70%">
 
+### ○ AVL 트리 (Adelson-Velsky and Landis tree)
+- 자가 균형 이진 탐색 트리, 스스로 균형을 잡는 데이터 구조이다.
+- 이진탐색트리는 한쪽으로 노드가 쏠릴 수 있다. 최악의 경우 O(N)의 시간이 필요하다.
+  -> 이런 단점을 극복할 수 있는 자료구조가 AVL 트리이다.
+1. 이진 탐색 트리의 속성을 가진다.
+2. 왼쪽, 오른쪽 서브 트리의 높이 차이가 최대 1이다.
+3. 높이 차이가 1보다 커지면 회전 (rotation)을 균형을 맞춰 높이 차이를 줄인다.
+4. 삽입, 검색, 삭제의 시간 복잡도가 O(logN)이다. (N : 노드의 개수)
+- 균형이 무너졌는지 판단할 때 Balance Factor를 사용한다.
+![image](https://github.com/daengnyangffojjag/CS-Interview/assets/102219847/947aaac4-c439-4a58-a544-ae61bbf8ebab)
+- [참고](https://code-lab1.tistory.com/61)
+
+### ○ Red-Black Tree
+- 레드-블랙 트리는 자가 균형 이진 탐색트리이다. 
+1. 모든 노드는 빨간색 혹은 검은색이다.
+2. 루트 노드는 검은색이다.
+3. 모든 리프 노드 (NIL)들은 검은색이다. (NIL: null leaf, 자료를 갖지 않고 트리의 끝을 나타내는 노드)
+4. 빨간색 노드의 자식은 검은색이다.
+  == No double red (빨간색 노드가 연속으로 나올 수 없다.)
+4. 모든 리프 노드에서 Black Depth는 같다.
+  == 리프노드에서 루트 노드까지 가는 경로에서 만나는 검은색 노드의 개수가 같다.
+- 사용 예
+  - Java 8 이후, HashMap의 Seperate Chaining에서 LinkedList 대신 RB tree를 사용한다. (O(N) -> O(logN))
+  - Collection에서 ArrayList의 내부적인 알고리즘이 RBT로 이루어져 있다.
+  - C++의 map의 내부 구현은 검색, 삽입, 삭제가 O(logN)으로 동작하는 RB 트리로 되어있다.
+
+### ○ AVL tree vs Red-Black tree
+1) AVL tree
+- 조회 시 더 빠르다.
+- 노드에 색깔이 없다.
+- 단점 : Balance factor나 height를 노드에 저장하기 때문에 각 노드 당 integer 값을 하나 저장하고 있어야 한다.
+  
+2) Red-Black tree
+- 삽입, 삭제 작업 시 균형을 맞추기 위한 작업 횟수가 적다.
+  RB : O(1), AVL : O(logN)
+- 각 노드 당 색깔을 표현하는데 1bit만 필요하다.
+
+
 
 ## 📌 트리의 적용
 
