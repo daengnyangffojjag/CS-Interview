@@ -102,6 +102,7 @@
   - Java 8 이후, HashMap의 Seperate Chaining에서 LinkedList 대신 RB tree를 사용한다. (O(N) -> O(logN))
   - Collection에서 ArrayList의 내부적인 알고리즘이 RBT로 이루어져 있다.
   - C++의 map의 내부 구현은 검색, 삽입, 삭제가 O(logN)으로 동작하는 RB 트리로 되어있다.
+<img src="https://velog.velcdn.com/images/coastby/post/881c0a0f-dac3-44e8-bfb3-e2fe29fde0e8/image.png" width="60%">
 
 ### ○ AVL tree vs Red-Black tree
 1) AVL tree
