@@ -23,3 +23,4 @@
 ### Database
 - [SQL injection](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/sql_injection.md)
 - [SQL vs NoSQL](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/nosql.md)
+- [Key & Join](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/DB_key_join.md)
