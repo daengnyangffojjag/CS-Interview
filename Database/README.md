@@ -6,3 +6,4 @@
 - [Stored Procedure](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/stored_procedure.md)
 - [Index](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/index.md)
 - [Anomaly](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/anomaly.md)
+- [Normalization](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/normalization.md)
