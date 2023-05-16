@@ -26,5 +26,6 @@
 - [Key & Join](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/DB_key_join.md)
 - [Redis](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/redis.md)
 - [Stored Procedure](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/stored_procedure.md)
-- [Index](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/index.md)
+- [Index](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/index.md)    
+- [Deadlock](https://github.com/daengnyangffojjag/CS-Interview/blob/9d04fe08e2d3fd60329ad5f3e4eb27dde2a7de82/Database/deadlock.md)
   
