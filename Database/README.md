@@ -6,4 +6,5 @@
 - [Stored Procedure](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/stored_procedure.md)
 - [Index](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/index.md)
 - [Anomaly](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/anomaly.md)
-- [Normalization](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/normalization.md)
+- [Normalization](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/normalization.md)    
+- [Deadlock](https://github.com/daengnyangffojjag/CS-Interview/blob/9d04fe08e2d3fd60329ad5f3e4eb27dde2a7de82/Database/deadlock.md)
