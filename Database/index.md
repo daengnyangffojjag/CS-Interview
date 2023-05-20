@@ -166,7 +166,7 @@ table에 데이터가 몇백건 정도일 경우 full scan이 index를 활용하
 3. JOIN이나 WHERE 또는 ORDER BY에 자주 사용되는 컬럼
 4. 데이터의 중복도가 낮은 컬럼 (고유한 값 위주로)
 
-> 3.1 추가질문 : INSERT, UPDATE, DELETE가 자주 발생하지 않는 컬럼에 index를 사용하면 어떤 문제가 생기는가?
+> 3.1 추가질문 : INSERT, UPDATE, DELETE가 자주 발생하는 컬럼에 index를 사용하면 어떤 문제가 생기는가?
 
 이럴경우 인덱스의 크기가 비대해져서 성능이 오히려 저하되는 역효과가 발생할 수 있다.
 
