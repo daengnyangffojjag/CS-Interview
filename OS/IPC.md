@@ -50,8 +50,9 @@ OS가 프로세스 간 통신 방법을 제공하고, 메세지를 대리 전달
 
 - Indirect:
   메세지들이 mailbox(port)를 이용하여 send와 receive가 이루어진다. 각 mailbox는 고유의 id를 가진다.
-  -send(A, message) : mailbox A 로 메시지를 보내라.
-  -receive(A, message): mailbox A로부터  메시지를 받아라. 
+  - send(A, message) : mailbox A 로 메시지를 보내라.
+  - receive(A, message): mailbox A로부터  메시지를 받아라. 
+  
   따라서 여러 프로세스가 mailbox를 공유할 수 있다.
 
 #### Synchronization (동기화) / Blocking
