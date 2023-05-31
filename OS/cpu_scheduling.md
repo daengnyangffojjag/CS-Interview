@@ -115,6 +115,7 @@ CPU Utilitzation, Throughput은 늘리고, Time 지표들은 감소하는 것이
 
 ### ○ HRN (Hightest Response-ratio Next)
 점유 불평등 현상이 발생하는 SJF 알고리즘을 보와하기 위해 만들어졌다. 아래의 우선 순위를 계산하여 동작한다.
+
 💡 우선 순위 = (대기시간 + 실행시간) / (실행시간)
 
 ### ○ Priority 스케줄링
