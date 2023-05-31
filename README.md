@@ -36,3 +36,7 @@
 - [Deadlock](https://github.com/daengnyangffojjag/CS-Interview/blob/9d04fe08e2d3fd60329ad5f3e4eb27dde2a7de82/Database/deadlock.md)
 - [Anomaly](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/anomaly.md)
 - [Normalization](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Database/normalization.md)  
+
+### Operating System
+- [IPC(Inter Process Communication)](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/IPC.md)
+- [CPU Scheduling](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/cpu_scheduling.md)
