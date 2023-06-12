@@ -8,3 +8,4 @@
 - [Interrupt](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/Interrupt.md)
 - [File System](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/file_system.md)
 - [Paging & Segmentation](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/Paging%20%26%20Segmentation.md)
+- [Paging Replacement Algorithm](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/Page%20Replacement%20Algorithm.md)
