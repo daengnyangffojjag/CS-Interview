@@ -7,3 +7,4 @@
 - [Process Address Space](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/Process%20Adress%20Space.md)
 - [Interrupt](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/Interrupt.md)
 - [File System](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/file_system.md)
+- [Paging & Segmentation)(https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/Paging%20%26%20Segmentation.md)
