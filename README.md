@@ -44,3 +44,4 @@
 - [CPU Scheduling](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/cpu_scheduling.md)
 - [Context Switching, PCB, System Call](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/context_switching_pcb_system_call.md)
 - [File System](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/file_system.md)
+- [Paging & Segmentation](https://github.com/daengnyangffojjag/CS-Interview/blob/main/OS/Paging%20%26%20Segmentation.md)
