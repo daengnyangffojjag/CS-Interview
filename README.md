@@ -24,6 +24,7 @@
 - [SpringBoot](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_springboot.md)
 - [Spring Security](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_springSecurity.md)
 - [Spring 6 & SpringBoot 3](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_newjava%2Bspring.md)
+- [Spring Security2](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_security.md)
 
 ### Data Structure
 - [트리](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/tree.md)
