@@ -6,3 +6,4 @@
 - [PSA & IOC & AOP & POJO](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/psa_ioc_aop_pojo.md)
 - [ApplicationContext](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/ApplicationContext.md)
 - [@Autowired](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/%40Autowired.md)
+- [ViewResolver](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/ViewResolver.md)
