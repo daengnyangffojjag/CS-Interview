@@ -7,3 +7,4 @@
 - [ApplicationContext](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/ApplicationContext.md)
 - [@Autowired](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/%40Autowired.md)
 - [ViewResolver](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/ViewResolver.md)
+- [@Valid](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/%40Valid.md)   
