@@ -35,6 +35,7 @@
 - [Spring Security2](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_security.md)
 - [Controller & RestController](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/controller%26restcontroller.md)
 - [PSA & IOC & AOP & POJO](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/psa_ioc_aop_pojo.md)
+- [ApplicatoinContext](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/ApplicationContext.md)
 
 ### Data Structure
 - [트리](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/tree.md)
