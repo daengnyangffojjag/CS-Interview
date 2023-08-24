@@ -3,3 +3,5 @@
 - [Garbage Collection](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/garbage_collection.md)
 - [고유 락](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/intrinsic_lock.md)
 - [String](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/string_class.md)
+- [Error & Exception](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/error%26exception.md)
+- [Serialize](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/serializable.md)

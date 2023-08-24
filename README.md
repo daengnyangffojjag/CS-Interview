@@ -19,12 +19,16 @@
 - [Garbage Collection](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/garbage_collection.md)
 - [고유 락](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/intrinsic_lock.md)
 - [String](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/string_class.md)
+- [Error & Exception](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/error%26exception.md)
+- [Serialize](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/serializable.md)
 
 ### Spring
 - [SpringBoot](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_springboot.md)
 - [Spring Security](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_springSecurity.md)
 - [Spring 6 & SpringBoot 3](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_newjava%2Bspring.md)
 - [Spring Security2](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/spring_security.md)
+- [Controller & RestController](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/controller%26restcontroller.md)
+- [PSA & IOC & AOP & POJO](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/psa_ioc_aop_pojo.md)
 
 ### Data Structure
 - [트리](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/tree.md)
