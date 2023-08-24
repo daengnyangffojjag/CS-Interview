@@ -37,6 +37,7 @@
 - [PSA & IOC & AOP & POJO](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/psa_ioc_aop_pojo.md)
 - [ApplicatoinContext](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/ApplicationContext.md)
 - [@Autowired](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/%40Autowired.md)
+- [ViewResolver](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/ViewResolver.md)
 
 ### Data Structure
 - [트리](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/tree.md)
