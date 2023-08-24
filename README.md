@@ -25,6 +25,7 @@
 - [AutoBoxing & UnBoxing](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/AutoBoxing%20%26%20UnBoxing.md)
 - [Thread](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Thread.md)
 - [Primitive & Reference Type](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Primitive%20Type%20%26%20Reference%20Type.md)
+- [Promotion & Casting](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Promotion%20%26%20Casting.md)
 
 
 ### Spring
