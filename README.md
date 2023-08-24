@@ -36,6 +36,7 @@
 - [Controller & RestController](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/controller%26restcontroller.md)
 - [PSA & IOC & AOP & POJO](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/psa_ioc_aop_pojo.md)
 - [ApplicatoinContext](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/ApplicationContext.md)
+- [@Autowired](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Spring/%40Autowired.md)
 
 ### Data Structure
 - [트리](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Data_Structure/tree.md)
