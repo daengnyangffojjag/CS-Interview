@@ -7,3 +7,5 @@
 7. [Thread](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Thread.md)
 8. [Primitive & Reference Type](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Primitive%20Type%20%26%20Reference%20Type.md)
 9. [Promotion & Casting](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Promotion%20%26%20Casting.md)
+10. [Java Stream](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Stream.md)
+11. [Composition](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Composition.md)
