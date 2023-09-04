@@ -9,3 +9,8 @@
 9. [Promotion & Casting](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Promotion%20%26%20Casting.md)
 10. [Java Stream](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Stream.md)
 11. [Composition](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/Composition.md)
+12.  [Garbage Collection](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/garbage_collection.md)
+13. [고유 락](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/intrinsic_lock.md)
+14. [String](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/string_class.md)
+15. [Error & Exception](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/error%26exception.md)
+16. [Serialize](https://github.com/daengnyangffojjag/CS-Interview/blob/main/Java/serializable.md)
